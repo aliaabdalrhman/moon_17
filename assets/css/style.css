@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   color: #3A3845;
+}
+
+.header {
+    display: flex;
+    gap: 232.5px;
+    padding: 21.84px 165px;
+}
+
+
+.list {
+    padding: 9px 0px;
+}
+
+.list ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.icons ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    padding: 9px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #3A3845;
+}
+
+.collections {
+    display: flex;
+    padding: 80px 165px;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.collection h2 {
+    text-align: center;
+    padding: 23px 0px;
+    color: #3A3845;
+    font-size: 18px;
+}
+
+.collection {
+    width: calc((100%-90px)/4);
+
+}
+
+.collection img {
+    width: 100%;
+}
