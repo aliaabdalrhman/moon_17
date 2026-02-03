@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   color: #3A3845;
+    color: #3A3845;
 }
 
+
 .header {
-    display: flex;
-    gap: 232.5px;
-    padding: 21.84px 165px;
+    padding: 21.84px 0px;
 }
 
 
@@ -34,23 +33,32 @@ a {
     color: #3A3845;
 }
 
-.collections {
-    display: flex;
-    padding: 80px 165px;
-    gap: 30px;
-    flex-wrap: nowrap;
+.container {
+    margin: 0 auto;
+    width: calc(100% - 330px);
+   
 }
 
-.collection h2 {
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.collections {
+    padding-top: 40px ;
+}
+
+h2 {
     text-align: center;
-    padding: 23px 0px;
+    margin-top: 23px;
     color: #3A3845;
     font-size: 18px;
 }
 
 .collection {
-    width: calc((100%-90px)/4);
-
+    width: calc((100% - 90px)/4);
 }
 
 .collection img {
